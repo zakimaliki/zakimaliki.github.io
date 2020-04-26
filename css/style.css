@@ -18,13 +18,95 @@
     filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
 }
 
-section, footer {
+section {
     padding: 20px 0;
 }
 
+footer img {
+  width: 125px;
+}
 
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
 
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
 
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
 
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
 
+.heading h2 {
+  font-weight: normal;
+}
 
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+/* Tambahkan CSS untuk message ketika diklik */
+.message:active{
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 3px 7px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
