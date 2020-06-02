@@ -1,6 +1,6 @@
 {
-  "Homepage": "https://zakimaliki.github.io/zakimaliki.github.io",
-  "name": "my-app",
+  "Homepage": "http://zakimaliki.github.io/zakimaliki.github.io",
+  "name": "zakimaliki.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
